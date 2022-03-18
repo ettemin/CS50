@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>I.Stat</Author>
+  <LastAuthor>Ettore MINELLI</LastAuthor>
+  <Created>2022-03-07T16:03:54Z</Created>
+  <LastSaved>2022-03-07T15:21:12Z</LastSaved>
+  <Company>ISTAT</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8616</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m787109584">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787109604">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787109624">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787109644">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787109664">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112080">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112100">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112120">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112140">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112160">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m787112180">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#F0F8FF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="I.Stat export">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s62" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sorry, the query is too large to fit into the Excel cell. You will not be able to update your table with the .Stat Populator.</Data></Cell>
+   </Row>
+   <Row ss:Height="23.400000000000002">
+    <Cell ss:StyleID="s63" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">Dataset:Risultati economici delle imprese</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787112080"><Data ss:Type="String">Territorio</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m787112100"><Data ss:Type="String">Italia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787112120"><Data ss:Type="String">Ateco 2007</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m787112140"><Data ss:Type="String">F: costruzioni</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787112160"><Data ss:Type="String">Classe di fatturato</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m787112180"><Data ss:Type="String">totale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787109584"><Data ss:Type="String">Dominio di protezione ambientale</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m787109604"><Data ss:Type="String">totale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787109624"><Data ss:Type="String">Seleziona periodo</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m787109644"><Data ss:Type="String">2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="m787109664"><Data ss:Type="String">Classe di addetti</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">0-9</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">10-19</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">20-49</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">50-249</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">250 e più</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">totale</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Variabile</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[11110]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">imprese</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">459041</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">14456</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4728</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1252</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">479574</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[12110]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">fatturato (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">79786226</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">25126863</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">21641844</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">22722936</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">15958241</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">165236110</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/R[-1]C[-1]"><Data ss:Type="Number">344.5476819010205</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">valore della produzione (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">82937190</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">25776342</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">22774982</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">24128984</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">18104359</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">173721857</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[12150]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">valore aggiunto al costo dei fattori (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">25749509</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">8690670</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">7183260</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">6658141</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">4273834</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">52555414</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[12170]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">margine operativo lordo (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">14910419</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2446681</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1820068</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1717159</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">852716</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">21747043</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[13110]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">acquisto di beni e servizi (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">50816906</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">16485775</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">14936500</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">17098680</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">13659200</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">112997061</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[13310]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">costi del personale (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">10839086</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">6243989</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">5363193</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4940980</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3421119</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">30808367</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[13320]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">salari e stipendi (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">7416806</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">4297747</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">3697428</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">3456330</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">2389878</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">21258189</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">investimenti lordi in beni materiali (migliaia di euro)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2402493</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">576672</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">677903</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">632991</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">344329</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4634388</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[16110]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">occupati</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">822270</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">188450</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">136523</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">110233</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">61679</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">1319155</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s97" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCSP_SBSNAZ&amp;Coords=[TIPO_DATO29].[16130]&amp;ShowOnWeb=true&amp;Lang=it"><Data
+      ss:Type="String">lavoratori dipendenti</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">341602</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">169198</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">131190</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">108989</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">61610</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">812589</Data></Cell>
+   </Row>
+   <Row ss:Height="20.399999999999999">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ore lavorate dai dipendenti (migliaia)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">545425</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">284630</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">221478</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">187743</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">105695</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">1344971</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101" ss:HRef="http://dativ7b.istat.it//index.aspx?DatasetCode=DCSP_SBSNAZ"><Data
+      ss:Type="String">Dati estratti il 07 mar 2022 15:03 UTC (GMT) da I.Stat</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
