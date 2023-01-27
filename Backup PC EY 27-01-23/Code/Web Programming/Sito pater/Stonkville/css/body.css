@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-section {
+    background: linear-gradient(white, #003554)
+}
+
+.first-section .first-title {
+    display: flex;
+    padding-top: 8rem;
+    justify-content: center;
+    
+}
+
+.first-section h1 {
+    font-size: 6rem;
+    padding: 0 0 0 5.5rem;
+    color: white;
+}
+
+.glance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    padding: 5.5rem;
+    padding-right: 10rem;
+    margin: 0px auto;
+}
+
+.inside-glance-container {
+    display: flex;
+    gap: 5rem;
+
+}
+
+.inside-glance-container > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.inside-glance-container h4 {
+    font-size: 1.5rem;
+}
+
+.second-section {
+    background: #003554;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom: 6rem;
+}
+
+.second-section-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.second-section-firstdiv {
+    padding: 2rem 2rem 0 5.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-seconddiv {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-top: 2rem;
+}
+
+.second-section-seconddiv p {
+    font-size: 1rem;
+    padding-right: 25rem;
+    padding-top: 1rem;
+}
+
+.second-section-seconddiv div {
+    margin-bottom: 2rem;
+}
+
+.third-section {
+    background: linear-gradient(#003554, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 5.5rem 10rem;
+    gap: 10%;
+}
+
+.third-section h3 {
+    padding: 4rem 15rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fffaca;
+}
+
+.third-section h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.fourth-section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.fourth-section-firstdiv {
+    flex-grow: 6;
+    padding-left: 5.5rem;
+    font-size: 3rem;
+}
+
+.fourth-section-firstdiv h2 {
+    width: 70%;
+}
+
+.fourth-section-seconddiv {
+    flex-grow: 1;
+    padding-left: 5.5rem;
+
+}
+
+.fourth-section-seconddiv h5 {
+    font-size: 2rem;
+}
+
+.fourth-section-seconddiv p {
+    padding: 1rem 0 2rem;
+    width: 50%;
+    text-align: justify;
+}

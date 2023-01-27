@@ -1,0 +1,15 @@
+.whyitaly-title {
+    margin-top: 30vh;
+    text-align: center;
+    margin-bottom: 20vh;
+    font-size: 2rem;
+}
+
+.first-section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-section-right-side {
+    max-height: 1000px;
+}
