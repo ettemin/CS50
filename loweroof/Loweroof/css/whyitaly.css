@@ -1,0 +1,67 @@
+.whyitaly-title {
+    margin-top: 30vh;
+    text-align: center;
+    margin-bottom: 20vh;
+    font-size: 2rem;
+}
+
+.first-section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-section-right-side {
+    max-height: 1000px;
+}
+
+div .google-visualization-tooltip {
+    border-radius: 0.3rem;
+    background-color: black;
+    opacity: 80%;
+    top:0 !important;
+    right:0 !important;
+
+}
+
+#linechart-mobile {
+    display: none;
+}
+
+.first-section-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    .first-section-div-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-section-div-mobile > * > *, .first-section-div-mobile > * {
+        padding-bottom: 2rem;
+    }
+
+    .first-section-div-mobile h2 {
+        font-size: 2.5rem;
+    }
+
+    .first-section-left-side-mobile {
+        align-items: center;
+        text-align: center;
+    }
+
+    #linechart-desktop {
+        display: none;
+    }
+
+    #linechart-mobile {
+        display: block;
+    }
+
+    #first-section-div-mobile-margin {
+        margin-top: 0;
+    }
+}
